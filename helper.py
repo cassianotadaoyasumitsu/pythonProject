@@ -1,5 +1,6 @@
 import logging
 
+
 def days_to_units(num_of_days, conversion_unit):
     if conversion_unit == "hours":
         return f"{num_of_days} days are {num_of_days * 24} {conversion_unit}"
@@ -26,4 +27,3 @@ def validation_type(days_and_unity_dict):
 
 
 user_input_message = "Enter values of days:unit type:\n"
-
